@@ -1,0 +1,116 @@
+body{
+    background: radial-gradient(circle, #FFFFFF 0%, #C6C6C6 56%, #999999 100%);
+    margin: 0%;
+    padding: 0%;
+    overflow-x: hidden;
+}
+#first_title{
+    color: #F9FFF5;
+    font-family: 'Noto Sans JP', 'sans-serif';
+    padding: 0vw 0 0 5vw;
+    font-size: 55px;
+}
+.os_quatro_botoes_topo{
+    display: flex;
+    gap: 4vw;
+    align-items: center;
+    justify-content: center;
+}
+.os_quatro_botoes_topo a{
+    color: #394431;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700; /* Peso do texto */
+    font-size: 28px; /* Tamanho do texto */
+    width: 170px; /* Largura da caixa */
+    height: 55px; /* Altura da caixa */
+    padding: 0px 8px 0px; /* Espaçamento da caixa */
+    border: 6px solid #394431; /* Linha ao redor */
+    border-radius: 5px; /* Cantos arredondados */
+    background-color: transparent;
+    transition: all 0.1s ease-in-out;
+    
+    border-top: 2.5px solid #394431;
+  border-left: 2.5px solid #394431;
+  border-bottom: 2.5px solid #394431;
+  border-right: 2.5px solid #394431;
+  
+  background-color: transparent;
+  transition: all 0.1s ease-in-out; 
+}
+.os_quatro_botoes_topo a:hover {
+  /* Inverte as bordas: a de cima fica grossa e a de baixo fina (efeito botão pressionado) */
+  border-top: 3px solid #004d20;
+  border-left: 3px solid #004d20;
+  border-bottom: 1px solid #004d20;
+  border-right: 1px solid #004d20;
+  
+  /* Um micro movimento para compensar a mudança de tamanho da borda */
+  transform: translateY(1px); 
+  
+  background-color: rgba(0, 77, 32, 0.082); 
+}
+.botoes_juntos_do_lado {
+    display: flex;
+    align-items: center;    
+    gap: 15px;              
+}
+.search_bar {
+    display: inline-flex;
+    align-items: center;
+}
+/*.search_bar input[type="text"] {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+}*/
+.botoes_lateral_um, .botoes_lateral_dois {
+    display: flex;
+    align-items: center;
+}
+.botoes_lateral_um img{
+    width: 70px;
+    height: auto;
+}
+.botoes_lateral_dois img{
+    width: 70px;
+    height: auto;
+}
+.botoes_lateral_um:hover{
+    opacity: 0.8; /* Deixa o ícone levemente transparente (ajuste entre 0 e 1) */
+    transition: opacity 0.2s ease; /* Deixa a mudança suave */
+}
+.botoes_lateral_dois:hover{
+    opacity: 0.8; /* Deixa o ícone levemente transparente (ajuste entre 0 e 1) */
+    transition: opacity 0.2s ease; /* Deixa a mudança suave */
+}
+.search_button {
+  background: transparent;  /* Torna o fundo invisível */
+  border: none;             /* Remove a borda padrão */
+  padding: 0;               /* Remove os espaçamentos internos que vêm de fábrica */
+  cursor: pointer;          /* Faz o ponteiro do mouse virar a "mãozinha" de clique */
+  outline: none;            /* Remove a linha de contorno ao clicar */
+  display: flex;
+align-items: center;
+}
+.search_button:hover{
+    opacity: 0.8; /* Deixa o ícone levemente transparente (ajuste entre 0 e 1) */
+    transition: opacity 0.2s ease; /* Deixa a mudança suave */
+}
+.search_button img {
+  width: 72px;               /* Ajuste o tamanho da imagem conforme necessário */
+  height: auto;              /* Mantém a proporção correta para não distorcer a imagem */
+}
+.conteudo_cortina{
+    background:#DEECD4;
+    border-radius: 12px 6px 6px 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 0 40px;  /* 0 em cima/baixo e 40px nas laterais esquerda e direita */
+    box-sizing: border-box; /* ESSENCIAL: Garante que os 40px não façam a tela ter barra de rolagem */
+}

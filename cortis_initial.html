@@ -1,59 +1,78 @@
 <!DOCTYPE html>
-<html lang="PT-BR">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="CORTIS - COLOR OUTSIDE THE LINES" content="A webpage for true coers to get closer to the group.">
+    <meta name="description" content="A webpage for true coers to get closer to the group.">
+    <link rel="icon" href="itens/favicon.ico" type="image/x-icon">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@400;500;600;700;800&family=Noto+Sans+JP:wght@100..900&display=swap" rel="stylesheet">
-    <title>CORTIS</title>
+    <link rel="stylesheet" href="style.css">
+    <title>CORTIS - COLOR OUTSIDE THE LINES</title>
 </head>
 <body>
 <section id="topo_area">
+    <div class="cortina_div">
+    <img src="itens/cortis_frame_one.webp" alt="Frame promocional do EP Color Outside the Lines" id="cortina_image">
     <h1 id="first_title">COLOR OUTSIDE THE<br>LINES</h1>
-    <img src="itens/cortis_3_1x.webp" alt="1920x1080" id="cortina_image">
-    <h2><button id="botao_start">Start Your Joyride<img src="itens/Vector 4.svg" alt=""></button></h2>
-    <img src="itens/CORTIS__-removebg-preview 2.svg" alt="">
+    <button id="botao_start">Start Your Joyride
+        <span class="arrow-down"><img src="itens/arrow_topo.svg" alt="seta-inicio"></span>
+    </button>
+    </div>
     <div class="conteudo_cortina">
-        <a href="concepts.html"><button class="botoes_topo_um">CONCEPTS</button></a>
-        <a href="members.html"><button class="botoes_topo_dois">MEMBERS</button></a>
-        <a href="fashion.html"><button class="botoes_topo_tres">FASHION</button></a>
-        <a href="tickets.html"><button class="botoes_topo_quatro">TICKETS</button></a>
-        <a href="user_area.html"><button class="botoes_lateral_um"><img src="itens/ICONS VERDE PARA CELULAR (1) 1.svg" alt=""></button></a>
-        <a href="user_cart.html"><button class="botoes_lateral_dois"><img src="itens/Safeway 1.svg" alt=""></button></a>
+        <a href="cortis_initial.html" class="cortis_logo"><img src="itens/cortis_icon.svg" alt=""></a>
+    <div class="os_quatro_botoes_topo">
+        <a href="concepts.html" class="botoes_topo_um">CONCEPTS</a>
+        <a href="members.html" class="botoes_topo_dois">MEMBERS</a>
+        <a href="fashion.html" class="botoes_topo_tres">FASHION</a>
+        <a href="tickets.html" class="botoes_topo_quatro">TICKETS</a>
+    </div>
+    <div class="botoes_juntos_do_lado"> 
         <div class="search_bar">
             <nav id="search_bar_nav">
-            <button class="search_button"><img src="itens/Find My 1.svg" alt=""></button>
+            <button class="search_button"><img src="itens/searc_icon_fixed.svg" alt=""></button>
             </nav>
         </div>
+    <a href="user_area.html" class="botoes_lateral_um"><img src="itens/user_icon.svg" alt=""></a>
+    <a href="user_cart.html" class="botoes_lateral_dois"><img src="itens/cart_icon.svg" alt=""></a>
+    </div>
     </div>
 </section>
 <section id="singles_area">
     <div id="eps_images">
-    <img src="itens/cortis_4_1.webp" alt="1920x1080" id="singles_image_one"> 
-    <h3 class="ep_one_name">COLOR OUTSIDE THE LINES - EP 1</h3>
-    <img src="itens/_cortis_1_1_1x.webp" alt="1920x1080" id="singles_image_two">
-    <h3 class="ep_two_name">COLOR OUTSIDE THE LINES - EP 2</h3>
+        <!-- BLOCO DO EP 1 -->
+        <div class="slide_ep">
+            <img src="itens/cortis_color_cover.webp" alt="Capa do EP Color Outside the Lines" id="singles_image_one"> 
+            <h3 class="ep_one_name">COLOR OUTSIDE THE LINES - EP 1</h3>
+        </div>
+        
+        <!-- BLOCO DO EP 2 -->
+        <div class="slide_ep">
+            <img src="itens/greengreen_cover.webp" alt="Capa do EP Green Green" id="singles_image_two">
+            <h3 class="ep_two_name">COLOR OUTSIDE THE LINES - EP 2</h3>
+        </div>
     </div>
-    <button class="slide_left"><img src="itens/Polygon 1.svg" alt=""></button>
-    <button class="slide_right"><img src="itens/Polygon 2.svg" alt=""></button>
-    <button class="dot_one"><img src="itens/Ellipse 1.svg" alt=""></button>
-    <button class="dot_two"><img src="itens/Ellipse 2.svg" alt=""></button>
+    
+    <!-- Os seus botões continuam iguais aqui abaixo -->
+    <button class="slide_left"><img src="itens/arrow_left_white.svg" alt=""></button>
+    <button class="slide_right"><img src="itens/arrow_right_white.svg" alt=""></button>
+    <button class="dot_one"><img src="itens/dot_green.svg" alt=""></button>
+    <button class="dot_two"><img src="itens/dot_grey.svg" alt=""></button>
 </section>
 <section id="light_green_area">
-<button class="tiktok_icon"><img src="itens/tiktok_icon.svg" alt=""></button>
-<button class="spotify_icon"><img src="itens/spotify_icon.svg" alt=""></button>
-<button class="more">MORE</button>
-<button class="youtube_icon"><img src="itens/youtube_icon.svg" alt=""></button>
-<button class="twitter_icon"><img src="itens/twitter_icon.svg" alt=""></button>
-<button class="instagram_icon"><img src="itens/instagram_icon.svg" alt=""></button>
-<button class="weverse_button">WEVERSE UPDATES</button>
+    <button class="tiktok_icon"><img src="itens/tiktok_icon.svg" alt=""></button>
+    <button class="spotify_icon"><img src="itens/spotify_icon.svg" alt=""></button>
+    <button class="more">MORE</button>
+    <button class="youtube_icon"><img src="itens/youtube_icon.svg" alt=""></button>
+    <button class="twitter_icon"><img src="itens/twitter_icon.svg" alt=""></button>
+    <button class="instagram_icon"><img src="itens/insta_icon.svg" alt=""></button>
+    <button class="weverse_button">WEVERSE UPDATES</button>
     <div id="weverse_pics">
-        <img src="itens/juhoon_pic.webp" alt="326x343" id="weverse_pic_one">
-        <img src="itens/seonghyeon_pic.webp" alt="326x343" id="weverse_pic_two">
-        <img src="itens/keonho_pic.webp" alt="326x343" id="weverse_pic_three">
-        <img src="itens/james_pic.webp" alt="326x343" id="weverse_pic_four">
+        <img src="itens/juhoon_pic.webp" alt="Foto de Juhoon" id="weverse_pic_one">
+        <img src="itens/seonghyeon_pic.webp" alt="Foto de Seonghyeon" id="weverse_pic_two">
+        <img src="itens/keonho_pic.webp" alt="Foto de Keonho" id="weverse_pic_three">
+        <img src="itens/james_pic.webp" alt="Foto de James" id="weverse_pic_four">
         <button class="green_arrow_left"><img src="itens/arrow_left_green.svg" alt=""></button>
         <button class="green_arrow_right"><img src="itens/arrow_right_green.svg" alt=""></button>
         <button class="green_slider"><img src="itens/barra_weverse.svg" alt=""></button>
